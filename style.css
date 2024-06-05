@@ -1,0 +1,47 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+*{
+    font-family: "Noto Serif KR", serif;;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+/* 피하기 */
+.method {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text1 {
+    font-size: 200px;
+    color: rgb(250, 110, 55);
+  }
+
+#text2 {
+    font-size: 150px;
+    color: rgb(255, 215, 84);
+  }
+
+#text3 {
+    font-size: 80px;
+    color: rgb(255, 230, 0);
+  }
+
+#text4 {
+    font-size: 90px;
+    color: rgb(255, 136, 0);
+  }
+  
+#move {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
